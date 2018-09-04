@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Sonia Funkenbusch</h1>
-        </header>
-        <p className="App-intro">
-          This portfolio is under construction!
-        </p>
-      </div>
+      <Router>
+        <div>
+          <Nav />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/portfolio' component={Portfolio} />
+            <Route exact path='/contact' component={Contact} />
+            <Route path='/*' component={Home} />
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
