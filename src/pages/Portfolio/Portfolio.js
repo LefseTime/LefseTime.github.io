@@ -26,7 +26,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="main" id="portfolio">
-                <h1>Sonia Funkenbusch Portfolio</h1>
+                <h1 className="title">Portfolio</h1>
             </div>
         );
     }

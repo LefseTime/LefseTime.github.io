@@ -26,7 +26,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="main" id="home">
-        <h1>Sonia Funkenbusch Contact</h1>
+        <h1 className="title">Contact</h1>
       </div>
     );
   }
