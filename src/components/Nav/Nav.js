@@ -26,7 +26,7 @@ class Nav extends Component {
   render() {
     return (
       <div id="nav">
-        <h1 className="nav sonia">Sonia Funkenbusch</h1>
+        <h1 className="nav sonia"><a href="/">Sonia Funkenbusch</a></h1>
         <h3 className="nav sonia">Full-Stack Developer</h3>
       </div>
     );

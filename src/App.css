@@ -1,16 +1,20 @@
 .body {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 7em 1fr 1fr 1fr 2.5em;
+  grid-template-columns: 100%;
+  grid-template-rows: 4.5em 1fr 2.5em;
   width: 100%;
   font-family: 'Raleway', sans-serif;
 }
 
 .main {
   padding: .5em .5em .5em .5em;
-  margin: 4.5em 0 0 0;
-  grid-area: 1 / 1 / 5 / 6;
+  margin: 0em 0 0 0;
+  grid-area: 2 / 1 / 3 / 2;
   background: url("images/white.jpg") center fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  flex-wrap: row wrap;
   /* linear-gradient(rgba(136, 136, 136, 0.514), rgba(136, 136, 136, 0.514)),  */
 }
 
@@ -18,6 +22,15 @@
   padding: .5em .5em .5em .5em;
   margin: 2em 2em 2em 2em;
   background: linear-gradient(rgba(51, 63, 72, 0.6), rgba(51, 63, 72, 0.6));
+  border-radius: .5em;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  flex-wrap: row wrap;
 }
 
 #nav {
@@ -27,14 +40,14 @@
   height: 4.5em;
   padding: .7em .2em 0 .2em;
   margin: 0 0 0 0;
-  grid-area: 1 / 1 / 2 / 6;
+  grid-area: 1 / 1 / 2 / 2;
   background: linear-gradient(rgba(205, 207, 207, 0.479),rgba(51, 63, 72, 0.479)), url("images/paper2.jpeg");
 }
 
 #footer {
   padding: .2em 0 .2em 0;
   margin: 0 0 0 0;
-  grid-area: 5 / 1 / 6 / 6;
+  grid-area: 3 / 1 / 4 / 2;
   background: linear-gradient(rgba(51, 63, 72, 0.479), rgba(205, 207, 207, 0.479)), url("images/paper2.jpeg") top;
   text-align: center;
 }
@@ -42,6 +55,11 @@
 .title {
   font-family: 'Poiret One', cursive;
   color: white;
+}
+
+.card {
+  width: 30%;
+  border: solid;
 }
 
 .sonia {
@@ -70,21 +88,25 @@
 /* unvisited link */
 a:link {
   color: black;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color: black;
+  text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: gray;
+  color: rgb(204, 255, 0);
+  text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: gray;
+  color: rgb(204, 255, 0);
+  text-decoration: none;
 }
 
 /* 

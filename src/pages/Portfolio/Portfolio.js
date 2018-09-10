@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "../../components/Card";
 
 class Portfolio extends Component {
     state = {
@@ -26,7 +27,14 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="main" id="portfolio">
-                <h1 className="title">Portfolio</h1>
+                <div className="scroll">
+                    <h1 className="title">Portfolio</h1>
+                    <div className="cards">
+                        <Card />
+                        <Card />
+                        <Card />
+                    </div>
+                </div>
             </div>
         );
     }
