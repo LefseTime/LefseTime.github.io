@@ -17,7 +17,7 @@ class Card extends Component {
         return (
             <div className="card">
                 <p>This is a card.</p>
-                
+                <a href="https://github.com/LefseTime" target="_blank" rel="noopener noreferrer" className="cardlink" id="github"><i className="fab fa-github fa-2x"></i></a>
             </div>
         )
     }
