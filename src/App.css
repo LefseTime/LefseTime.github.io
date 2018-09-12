@@ -50,6 +50,10 @@
   color: white;
 }
 
+.center {
+  text-align: center;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
@@ -58,11 +62,13 @@
 }
 
 .card {
-  /* height: 4em; */
   width: 15em;
-  border: solid .1em;
+  color: white;
+  border: solid .1em black;
   border-radius: .3em;
   margin: .5em .5em .5em .5em;
+  padding: .5em .5em .5em .5em;
+  background-image: url("images/GOURDS.jpg")
 }
 
 .card:hover {
@@ -70,7 +76,7 @@
 }
 
 .cardlink {
-  text-align: center;
+  
 }
 
 .sonia {
