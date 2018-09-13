@@ -2,29 +2,57 @@ import React, { Component } from "react";
 import Card from "../../components/Card";
 
 class Portfolio extends Component {
-    state = {
+    // state = {
 
-    };
+    // };
 
-    componentDidMount() {
+    // componentDidMount() {
 
-    }
+    // }
 
 
 
-    handleInputChange = event => {
-        const { name, value } = event.target;
-        this.setState({
-            [name]: value
-        });
-    };
+    // handleInputChange = event => {
+    //     const { name, value } = event.target;
+    //     this.setState({
+    //         [name]: value
+    //     });
+    // };
 
-    handleFormSubmit = event => {
-        event.preventDefault();
+    // handleFormSubmit = event => {
+    //     event.preventDefault();
 
+    // };
+
+    constructor() {
+        super();
+        this.cardProps =
+            {
+                title: 'Title 1',
+                text: 'text1'
+            }
+        //     },
+        //     {
+        //         title: 'Title 2',
+        //         text: 'text2'
+        //     }
+        // ];   
     };
 
     render() {
+        const cardProps = [
+            {
+                title: 'Title 1',
+                text: 'text1',
+                deplink: 'http://www.wickerpedia.org/',
+                ghlink: 'http://www.wickerpedia.org/'
+            },
+            {
+                title: 'Title 2',
+                text: 'text2'
+            }
+        ]
+
         return (
             <div className="main" id="portfolio">
                 <div className="scroll">
@@ -32,8 +60,8 @@ class Portfolio extends Component {
                     <hr></hr>
                     <h2 className="title center">Group Projects</h2>
                     <div className="cards">
-                        <Card />
-                        <Card />
+                        <Card {...cardProps[0]} />
+                        <Card {...cardProps[1]} />
                         <Card />
                     </div>
                     <hr></hr>
