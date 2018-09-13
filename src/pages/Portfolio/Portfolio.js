@@ -2,56 +2,22 @@ import React, { Component } from "react";
 import Card from "../../components/Card";
 
 class Portfolio extends Component {
-    // state = {
-
-    // };
-
-    // componentDidMount() {
-
-    // }
-
-
-
-    // handleInputChange = event => {
-    //     const { name, value } = event.target;
-    //     this.setState({
-    //         [name]: value
-    //     });
-    // };
-
-    // handleFormSubmit = event => {
-    //     event.preventDefault();
-
-    // };
-
-    constructor() {
-        super();
-        this.cardProps =
-            {
-                title: 'Title 1',
-                text: 'text1'
-            }
-        //     },
-        //     {
-        //         title: 'Title 2',
-        //         text: 'text2'
-        //     }
-        // ];   
-    };
 
     render() {
         const cardProps = [
             {
-                title: 'Title 1',
-                text: 'text1',
-                deplink: 'http://www.wickerpedia.org/',
-                ghlink: 'http://www.wickerpedia.org/'
+                title: 'Pet Cupid',
+                text: 'Find your perfect fluffy friend!',
+                deplink: 'https://petcupid.herokuapp.com/',
+                ghlink: 'https://github.com/LefseTime/Pet-Cupid'
             },
             {
-                title: 'Title 2',
-                text: 'text2'
+                title: 'Running Logger',
+                text: 'RUNNNNNN!!!!!!!',
+                deplink: 'https://running-ledger.herokuapp.com/index.html',
+                ghlink: 'https://github.com/LefseTime/Running-Logger'
             }
-        ]
+        ];
 
         return (
             <div className="main" id="portfolio">
