@@ -9,19 +9,22 @@ class Portfolio extends Component {
                 title: 'DEM BURGS',
                 text: 'A full-stack app using a MySQL database to display burgs available to nom, and allows users to nom them or add their own.',
                 deplink: 'https://dem-burgs.herokuapp.com/',
-                ghlink: 'https://github.com/LefseTime/DEM-BURGS'
+                ghlink: 'https://github.com/LefseTime/DEM-BURGS',
+                image: './src/images/DEMBURGS.png'
             },
             {
                 title: 'Glorious Cheese Shoppe',
                 text: 'A Node/MySQL app with customer and manager views for the Glorious Cheese Shoppe allowing each various capabilities for viewing, buying, and stocking various Glorious Cheeses of the World.',
                 // deplink: 'https://github.com/LefseTime/Glorious-Cheese-Shoppe',
-                ghlink: 'https://github.com/LefseTime/Glorious-Cheese-Shoppe'
+                ghlink: 'https://github.com/LefseTime/Glorious-Cheese-Shoppe',
+                image: 'frost'
             },
             {
                 title: 'Kitty Klick',
                 text: 'A Node/MySQL app with customer and manager views for the Glorious Cheese Shoppe allowing each various capabilities for viewing, buying, and stocking various Glorious Cheeses of the World.',
                 deplink: 'https://lefsetime.github.io/kitty-klick/',
-                ghlink: 'https://github.com/LefseTime/Kitty-Klick'
+                ghlink: 'https://github.com/LefseTime/Kitty-Klick',
+                image: 'frost'
             }
         ];
 
@@ -30,13 +33,15 @@ class Portfolio extends Component {
                 title: 'Pet Cupid',
                 text: 'Find your perfect fluffy friend!',
                 deplink: 'https://petcupid.herokuapp.com/',
-                ghlink: 'https://github.com/LefseTime/Pet-Cupid'
+                ghlink: 'https://github.com/LefseTime/Pet-Cupid',
+                image: 'frost'
             },
             {
                 title: 'Running Logger',
                 text: 'RUNNNNNN!!!!!!!',
                 deplink: 'https://running-ledger.herokuapp.com/index.html',
-                ghlink: 'https://github.com/LefseTime/Running-Logger'
+                ghlink: 'https://github.com/LefseTime/Running-Logger',
+                image: 'frost'
             }
         ];
 
