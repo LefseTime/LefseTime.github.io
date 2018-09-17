@@ -62,21 +62,45 @@
 }
 
 .card {
-  width: 15em;
+  width: 20em;
+  height: 20em;
   color: white;
   border: solid .1em black;
   border-radius: .3em;
   margin: .5em .5em .5em .5em;
-  padding: .5em .5em .5em .5em;
-  background-image: url("images/GOURDS.jpg")
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  background-image: url("images/GOURDS.jpg");
+  transition: .5s ease;
 }
 
 .card:hover {
   border-color: rgb(204, 255, 0)
 }
 
-.cardlink {
-  
+.cardhover {
+  display: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.356));
+  width: 20em;
+  height: 20em;
+}
+
+.card:hover .cardhover {
+  display: flex;
+}
+
+.cardtext {
+  margin: .5em .5em .5em .5em;
+  /* display: flex; */
+}
+
+.cardlinks {
+  /* width: 20em;
+  padding: .5em .5em .5em .5em;
+  margin: 0em 0em 0em 0em; */
+  /* display: flex;
+  align-self: flex-end; */
 }
 
 .sonia {
@@ -103,25 +127,49 @@
 }
 
 /* unvisited link */
-a:link {
+.blacklink:link {
   color: black;
   text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+.blacklink:visited {
   color: black;
   text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+.blacklink:hover {
   color: rgb(204, 255, 0);
   text-decoration: none;
 }
 
 /* selected link */
-a:active {
+.blacklink:active {
+  color: rgb(204, 255, 0);
+  text-decoration: none;
+}
+
+/* unvisited link */
+.whitelink:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+.whitelink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.whitelink:hover {
+  color: rgb(204, 255, 0);
+  text-decoration: none;
+}
+
+/* selected link */
+.whitelink:active {
   color: rgb(204, 255, 0);
   text-decoration: none;
 }
