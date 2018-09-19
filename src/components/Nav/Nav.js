@@ -38,12 +38,13 @@ class Nav extends Component {
             <span class="fa fa-bars" aria-hidden="true"></span>
           </a>
 
-          <h1 className="nav sonia"><a className="blacklink" href="/">S.C. Funkenbusch</a></h1>
-          <h3 className="nav sonia">Full-Stack Developer</h3>
+          <div className="head" id="pleasework">
+            <h1 className="nav sonia"><a className="blacklink" href="/">S.C. Funkenbusch</a></h1>
+            <h3 className="nav sonia">Full-Stack Developer</h3>
+          </div>
 
           <nav id="main-menu"
             class="main-menu"
-            role="navigation"
             aria-expanded="false"
             aria-label="Main menu">
             <a href="#main-menu-toggle"
@@ -57,8 +58,9 @@ class Nav extends Component {
               <span class="fa fa-close" aria-hidden="true"></span>
             </a>
             <ul>
+              <li><a href="/">Home</a></li>
               <li><a href="/portfolio">Portfolio</a></li>
-              <li><a href="/">Resume</a></li>
+              <li><a href="/resume">Resume</a></li>
               <li><a href="/about">About</a></li>
             </ul>
           </nav>

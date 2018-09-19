@@ -1,21 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Card = props => (
-    <div className="card" style={{backgroundImage: `url(${props.image})`}}>
-        <div className="cardhover">
-            <div className="cardtext">
-                <h1>{props.title}</h1>
-                <p>{props.text}</p>
-                <a href={props.deplink} target="_blank" rel="noopener noreferrer" className="cardlink whitelink" id="view"><i className="fas fa-binoculars fa-2x"></i></a>
-                <a href={props.ghlink} target="_blank" rel="noopener noreferrer" className="cardlink whitelink" id="github"><i className="fab fa-github fa-2x"></i></a>
+class Card extends Component {
+    
+    render() {
+
+        return (
+            <div className="card" style={{backgroundImage: `url("${this.props.image}")`}}>
+                <div className="cardhover">
+                    <div className="cardtext">
+                        <h1>{this.props.title}</h1>
+                        <p>{this.props.text}</p>
+                        <a href={this.props.deplink} target="_blank" rel="noopener noreferrer" className="cardlink whitelink" id="view"><i className="fas fa-binoculars fa-2x"></i></a>
+                        <a href={this.props.ghlink} target="_blank" rel="noopener noreferrer" className="cardlink whitelink" id="github"><i className="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
             </div>
-            {/* <div className="cardlinks">
-                <a href={props.deplink} target="_blank" rel="noopener noreferrer" className="cardlink" id="view" className="whitelink"><i className="fas fa-binoculars fa-2x"></i></a>
-                <a href={props.ghlink} target="_blank" rel="noopener noreferrer" className="cardlink" id="github" className="whitelink"><i className="fab fa-github fa-2x"></i></a>
-            </div> */}
-        </div>
-    </div>
+        )
+    }
 
-)
+}
 
 export default Card;

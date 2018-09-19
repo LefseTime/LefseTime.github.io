@@ -35,6 +35,8 @@
   padding: .7em .2em 0 .2em;
   margin: 0 0 0 0;
   grid-area: 1 / 1 / 2 / 2;
+  /* display: flex;
+  flex-wrap: nowrap; */
   background: linear-gradient(rgba(205, 207, 207, 0.479),rgba(204, 255, 0, 0.075)), url("images/paper2.jpeg");
 }
 
@@ -72,17 +74,22 @@
   display: flex;
   /* flex-direction: row; */
   flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   /* background-image: url("images/GOURDS.jpg"); */
   /* transition: .5s ease; */
 }
 
 .card:hover {
-  border-color: rgb(204, 255, 0)
+  border-color: rgb(204, 255, 0);
+  border-radius: .3em;
 }
 
 .cardhover {
   display: none;
-  background: linear-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.356));
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+  border-radius: .3em;
   width: 20em;
   height: 20em;
 }
@@ -96,18 +103,10 @@
   /* display: flex; */
 }
 
-.cardlinks {
-  /* width: 20em;
-  padding: .5em .5em .5em .5em;
-  margin: 0em 0em 0em 0em; */
-  /* display: flex;
-  align-self: flex-end; */
-}
-
 /* Button styling */
 .menu-toggle {
   display: inline-block;
-  padding: .75em 15px;
+  padding: 1.5em 1.5em;
   line-height: 1em;
   font-size: 1em;
   color: #333;
@@ -120,7 +119,7 @@
   /* color: rgb(204, 255, 0); */
   text-decoration: none;
   outline: none;
-  background: radial-gradient(rgba(204, 255, 0, 1), rgba(255, 255, 255, 0));
+  background: radial-gradient(rgba(204, 255, 0, 1), rgba(100, 100, 100, 0));
   border-radius: .9em;
 }
 
@@ -245,11 +244,19 @@
   background-image: url("images/DEMBURGS.png");
 } */
 
+.head {
+  margin-top: 0;
+}
+
 .sonia {
   font-family: 'Megrim', cursive;
   text-align: center;
   padding: 0em 0em 0em 0em;
   margin: 0em 0em 0em 0em;
+}
+
+#pleasework {
+  margin-top: -4em;
 }
 
 .text {
@@ -314,6 +321,53 @@
 .whitelink:active {
   color: rgb(204, 255, 0);
   text-decoration: none;
+}
+
+#profesh {
+  height: 8em;
+  border-radius: .3em;
+  float: left;
+  margin-right: .5em;
+  margin-left: .5em;
+}
+
+.hobbyPictures {
+  /* height: 15em; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: .5em .5em .5em .5em;
+}
+
+#zabs {
+  height: 10em;
+  border-radius: .3em;
+  margin: .5em .5em .5em .5em;
+}
+
+#ski {
+  height: 10em;
+  border-radius: .3em;
+  margin: .5em .5em .5em .5em;
+}
+
+#otaru {
+  height: 10em;
+  border-radius: .3em;
+  margin: .5em .5em .5em .5em;
+}
+
+#drT {
+  height: 10em;
+  border-radius: .3em;
+  margin: 1em .5em 1em .5em;
+}
+
+#ravelry {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 /* 
