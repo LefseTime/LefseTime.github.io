@@ -45,7 +45,7 @@ const Nav = () => (
         class="backdrop"
         tabindex="-1"
         aria-hidden="true"
-        hidden></a>
+        hidden>Drop-down</a>
     </header>
   </div>
 );
