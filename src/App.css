@@ -44,6 +44,13 @@
   line-height: .5em;
 }
 
+.logo {
+  color: rgb(204, 255, 0);
+  background-color: black;
+  font-family: 'Megrim', cursive;
+  padding: 3em 3em 3em 3em;
+}
+
 #catMassage {
   text-decoration: none;
   color: white;
