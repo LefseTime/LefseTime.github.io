@@ -21,7 +21,7 @@ class Portfolio extends Component {
             },
             {
                 title: 'Kitty Klick',
-                text: 'A Node/MySQL app with customer and manager views for the Glorious Cheese Shoppe allowing each various capabilities for viewing, buying, and stocking various Glorious Cheeses of the World.',
+                text: `A React app in which users click cat pictures to increment their score. On each click, the cat pictures randomly rearrange. If the same picture is clicked twice, the score resets to zero. A high score for the current user's visit is also displayed.`,
                 deplink: 'https://lefsetime.github.io/kitty-klick/',
                 ghlink: 'https://github.com/LefseTime/Kitty-Klick',
                 image: 'https://imgur.com/6IbEOnv.png'

@@ -1,3 +1,2 @@
-# UNDER CONSTRUCTION
-## S. Funkenbusch's Portfolio
+# S. Funkenbusch's Portfolio
 My personal portfolio created with React.
