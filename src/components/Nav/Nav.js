@@ -16,7 +16,7 @@ const Nav = () => (
       </a>
 
       <div className="head" id="pleasework">
-        <h1 className="nav sonia"><a className="blacklink" href="/">S.C. Funkenbusch</a></h1>
+        <h1 className="nav sonia"><a className="blacklink" href="/" title="Home">S.C. Funkenbusch</a></h1>
         <h3 className="nav sonia">Full-Stack Developer</h3>
       </div>
 
