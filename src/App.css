@@ -316,6 +316,20 @@
   background-image: url("images/DEMBURGS.png");
 } */
 
+.resume{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: .5em .5em .5em .5em;
+}
+
+#resumeDL {
+  text-decoration: underline;
+  padding-left: 10%;
+}
+
+
+
 .head {
   margin-top: 0;
 }
