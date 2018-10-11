@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => (
 
@@ -16,7 +17,7 @@ const Nav = () => (
       </a>
 
       <div className="head" id="pleasework">
-        <h1 className="nav sonia"><a className="blacklink" href="/" title="Home">S.C. Funkenbusch</a></h1>
+        <h1 className="nav sonia"><Link to="/" title="home" className="blacklink">S.C. Funkenbusch</Link></h1>
         <h3 className="nav sonia">Full-Stack Developer</h3>
       </div>
 
@@ -35,10 +36,10 @@ const Nav = () => (
           <span class="fa fa-close" aria-hidden="true"></span>
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/resume">Resume</a></li>
-          <li><a href="/about">About</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/resume">Resume</Link></li>
+          <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
       <a href="#main-menu-toggle"
