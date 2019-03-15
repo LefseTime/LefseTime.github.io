@@ -196,7 +196,8 @@
   /* color: rgb(204, 255, 0); */
   text-decoration: none;
   outline: none;
-  background: radial-gradient(rgba(204, 255, 0, 1), rgba(255, 255, 255, 0));
+  box-shadow: 0 0 0em rgba(204, 255, 0, 1);
+  /* background: radial-gradient(rgba(204, 255, 0, 1), rgba(255, 255, 255, 0)); */
   border-radius: 100%;
 }
 
