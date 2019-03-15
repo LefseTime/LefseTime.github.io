@@ -6,6 +6,20 @@ class Portfolio extends Component {
     render() {
         const soloCardProps = [
             {
+                title: 'Knitteracy',
+                text: 'A full-stack app to generate text knitting charts. Technologies include Java, MySQL, Thymeleaf, JQuery.',
+                deplink: 'http://knitteracy.com/',
+                ghlink: 'https://github.com/LefseTime/Knitteracy',
+                image: 'https://imgur.com/xQZwkoB.png',
+            },
+            {
+                title: 'Poke_Fight™',
+                text: 'A project to independently learn Python. Runs as a CLI or on the web via Flask, JQuery, and Heroku.',
+                deplink: 'http://poke-underscore-fight.herokuapp.com/',
+                ghlink: 'https://github.com/LefseTime/Poke_Fight',
+                image: 'https://imgur.com/Xeq5efE.png',
+            },
+            {
                 title: 'DEM BURGS',
                 text: 'A full-stack app using a MySQL database to display burgs available to nom, and allows users to nom them or add their own.',
                 deplink: 'https://dem-burgs.herokuapp.com/',
@@ -31,14 +45,14 @@ class Portfolio extends Component {
         const groupCardProps = [
             {
                 title: 'Pet Cupid',
-                text: 'Find your perfect fluffy friend!',
+                text: 'A full stack app to match users to adoptable pets with a personality quiz. I worked with the PetFinder API and quiz logic.',
                 deplink: 'https://petcupid.herokuapp.com/',
                 ghlink: 'https://github.com/LefseTime/Pet-Cupid',
                 image: 'https://imgur.com/ysup9ru.png'
             },
             {
                 title: 'Running Logger',
-                text: 'RUNNNNNN!!!!!!!',
+                text: 'A full stack app to track runs. I worked with the weather API.',
                 deplink: 'https://running-ledger.herokuapp.com/index.html',
                 ghlink: 'https://github.com/LefseTime/Running-Logger',
                 image: 'https://imgur.com/AF8Y86I.png'

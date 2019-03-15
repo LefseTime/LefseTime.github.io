@@ -11,14 +11,13 @@ import Resume from "./pages/Resume";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter >
+      <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
         <div className="body">
           <Nav />
-          
-            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
-            <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
-            <Route path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio} />
-            <Route path={`${process.env.PUBLIC_URL}/resume`} component={Resume} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/resume" component={Resume} />
           
           <Footer />
         </div>
