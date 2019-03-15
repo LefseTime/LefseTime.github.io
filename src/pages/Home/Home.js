@@ -14,8 +14,8 @@ class Home extends Component {
                     </div>
                     <div className="buttons">
                         <Button link="/portfolio" title="Portfolio" text="Portfolio" />
-                        <Button link={`${process.env.PUBLIC_URL}/resume`} title="Resume" text="Resume" />
-                        <Button link={`${process.env.PUBLIC_URL}/about`} title="About" text="About" />
+                        <Button link="/resume" title="Resume" text="Resume" />
+                        <Button link="/about" title="About" text="About" />
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ class App extends Component {
           <Nav />
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/portfolio-page" component={Portfolio} />
             <Route path="/resume" component={Resume} />
           
           <Footer />
