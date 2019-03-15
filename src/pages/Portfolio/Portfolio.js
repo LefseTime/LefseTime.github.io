@@ -69,6 +69,8 @@ class Portfolio extends Component {
                         <Card {...soloCardProps[0]} />
                         <Card {...soloCardProps[1]} />
                         <Card {...soloCardProps[2]} />
+                        <Card {...soloCardProps[3]} />
+                        <Card {...soloCardProps[4]} />
                     </div>
                     <hr></hr>
                     <h2 className="title center">Group Projects</h2>

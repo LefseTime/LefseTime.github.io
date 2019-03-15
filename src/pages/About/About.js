@@ -30,10 +30,10 @@ class About extends Component {
           <h1 className="title">About</h1>
           <hr></hr>
           <p className="text"><img src="https://imgur.com/PHKTFi7.png" id="profesh" alt="Sonia standing in front of a brick wall smiling."></img>Hello! I'm Sonia Funkenbusch, a full-stack developer in the Twin Cities, Minnesota with experience in JavaScript,
-                    Node.js, React, Express, MySQL, Sequelize, Mongo, Mongoose, GitHub, Heroku, HTML, and CSS. I have broad interests and experiences ranging from conducting
+                    Node.js, React, Express, MySQL, Java, Spring, Python, Flask, Sequelize, Mongo, Mongoose, REST, Git, Heroku, HTML, and CSS. I have broad interests and experiences ranging from conducting
                     scientific research to performing orchestral music to studying religion and gender to teaching English
                     to middle schoolers in Japan. If it's possible to find a given thing interesting, I probably will! I'm
-                    excited to work in a relaxed environment with a small team of people I can learn with.
+                    excited to work in a collaborative environment with a small team of people I can learn with.
           </p>
           <p className="text">In my free time, I enjoy making music, knitting, cross-country skiing, and everything cats. I recently tried to foster
              two kitties, a beefy dilute tortie named Dr. Terwilliker and a tiny tabby named Zabladowski, but, predictably, ended up adopting them. They now receive free, unlimited massage.
