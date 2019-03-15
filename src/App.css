@@ -194,10 +194,10 @@
 .menu-toggle:hover,
 .menu-toggle:focus {
   /* color: rgb(204, 255, 0); */
-  text-decoration: none;
-  outline: none;
-  box-shadow: 0 0 0em rgba(204, 255, 0, 1);
-  /* background: radial-gradient(rgba(204, 255, 0, 1), rgba(255, 255, 255, 0)); */
+  /* text-decoration: none; */
+  /* outline: none; */
+  box-shadow: 0 0 3em 1em rgba(204, 255, 0, 1);
+  background: rgba(204, 255, 0, 1);
   border-radius: 100%;
 }
 
