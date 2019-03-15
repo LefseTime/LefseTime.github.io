@@ -18,7 +18,7 @@ const Nav = () => (
 
       <div className="head" id="pleasework">
         <h1 className="nav sonia"><Link to="/" title="home" className="blacklink">S.C. Funkenbusch</Link></h1>
-        <h3 className="nav sonia">Full-Stack Developer</h3>
+        <h3 className="nav sonia">Full Stack Developer</h3>
       </div>
 
       <nav id="main-menu"
@@ -38,7 +38,7 @@ const Nav = () => (
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/portfolio-page">Portfolio</Link></li>
-          <li><Link to="/resume">Resume</Link></li>
+          {/* <li><Link to="/resume">Resume</Link></li> */}
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
