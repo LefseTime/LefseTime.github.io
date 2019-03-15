@@ -14,8 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://lefsetime.github.io/portfolio"
+  "homepage": "https://lefsetime.github.io/"
 }
